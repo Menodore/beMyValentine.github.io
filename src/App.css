@@ -1,0 +1,29 @@
+body {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.89);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  width: 500px;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.yes-btn, .no-btn {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
