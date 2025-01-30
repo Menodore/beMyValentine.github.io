@@ -22,12 +22,12 @@ function App() {
     <div className="container">
       {showThankYou ? (
         <div>
-          <img src="/thank-you.jpg" alt="Thank you!" width="200" />
+          <img src="https://menodore.github.io/beMyValentine.github.io/public/thank-you.jpg" alt="Thank you!" width="300" />
           <h2>Thank You! ❤️</h2>
         </div>
       ) : (
         <div>
-          <img src="/vivek.png" alt="Will you be my Valentine?" width="200" />
+          <img src="https://menodore.github.io/beMyValentine.github.io/public/vivek.png" alt="Will you be my Valentine?" width="200" />
           <h2>Will you be my Valentine?</h2>
           <div className="buttons">
             <button className="yes-btn" onClick={handleYesClick}>Yes</button>
